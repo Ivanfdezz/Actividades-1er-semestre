@@ -64,7 +64,17 @@ Algoritmo Registro_de_alumnos
 					si datos_capturados = Falso Entonces
 						Escribir "Primero debe ingresar sus datos"
 					SiNo
-
+						
+						si prom1 > prom2 y prom1> prom3 Entonces
+							Escribir "El promedio más alto es: ", prom1 " del ", alumno1
+						SiNo
+							si prom2 > prom1 y prom2 > prom3 Entonces
+								Escribir "El promedio más alto es: ", prom2 " del ", alumno2
+							SiNo
+								si prom3 > prom1 y prom3 > prom2 Entonces
+									Escribir "El promedio más alto es: ", prom3 " del ", alumno3
+								SiNo
+									
 					si prom1 = prom2 y prom1 = prom3  Entonces
 						Escribir "Los alumnos ", alumno1,"," alumno2 " y " alumno3 " obtuvieron el mismo promedio de ", prom1
 					SiNo
@@ -76,19 +86,9 @@ Algoritmo Registro_de_alumnos
 							SiNo
 								si prom1 = prom3 Entonces
 									Escribir "Los alumnos ", alumno1 " y ", alumno3 " obtuvieron el mismo promedio de ", prom3
-								SiNo									
-					si prom1 >= prom2 y prom1>= prom3 Entonces
-						Escribir "El promedio más alto es: ", prom1 " del ", alumno1
-					SiNo
-						si prom2 >= prom1 y prom2 >= prom3 Entonces
-							Escribir "El promedio más alto es: ", prom2 " del ", alumno2
-						SiNo
-							si prom3 >= prom1 y prom3 >= prom2 Entonces
-								Escribir "El promedio más alto es: ", prom3 " del ", alumno3
-							FinSi
-						FinSi
-						
-						
+								SiNo
+								FinSi
+							FinSi	
 					FinSi
 				FinSi
 			FinSi
