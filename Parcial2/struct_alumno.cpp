@@ -1,7 +1,6 @@
 
 #include <iostream>
 #include <string>
-#include <limits>    //*permite limpiar caracteres pendientes en la entrada*
 #include <iomanip>
 #include <cstdlib>
 #include <ctime>
