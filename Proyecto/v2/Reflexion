@@ -1,0 +1,20 @@
+Reflexión
+
+Al comparar este programa en C++ con los ejercicios que realizamos en PSeInt durante el primer parcial, me di cuenta de la importancia 
+de utilizar arreglos y estructuras para organizar mejor la información. En los primeros ejercicios trabajábamos con variables 
+individuales, ciclos y contadores para resolver problemas específicos, por lo que manejar una mayor cantidad de datos podía implicar 
+modificar varias partes del algoritmo. En cambio, en este programa pude utilizar vectores para registrar alumnos, grupos y maestros, 
+además de estructuras para almacenar sus datos relacionados. Para pasar de registrar 3 alumnos a 30 o incluso más, no fue necesario 
+crear nuevas variables ni repetir el código para cada alumno; bastó con cambiar la cantidad de registros y mantener los ciclos que 
+recorren los datos. El momento en que comprendí mejor la utilidad de los arreglos fue al observar que un mismo ciclo podía capturar 
+las calificaciones de distintos alumnos y calcular sus promedios sin importar cuántos estuvieran registrados. Esto me permitió entender 
+que los arreglos y los vectores hacen que un programa sea más flexible, organizado y fácil de ampliar, mientras que las estructuras 
+permiten relacionar diferentes datos de una misma persona. Considero que este aprendizaje representa un avance respecto a los ejercicios 
+iniciales de PSeInt, porque ahora puedo aplicar la lógica que aprendí para desarrollar programas que administren una mayor cantidad de 
+información.
+
+Uso de inteligencia artificial
+
+Utilicé IA como apoyo para resolver dudas de sintaxis de C++, comprender el uso de struct y vector, revisar ciclos y corregir 
+algunos errores de programación. El diseño de las estructuras de datos y la lógica general del programa se desarrollaron como 
+parte de mi propio trabajo.
